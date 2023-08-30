@@ -1,12 +1,14 @@
 import React from 'react';
-import Header from './components/header';
+import Layout from './components/layout';
 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Layout>
+        <h1>test</h1>
+      </Layout>
     </div>
   );
 }
