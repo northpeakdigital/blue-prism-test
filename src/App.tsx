@@ -2,12 +2,16 @@ import React from 'react';
 import Layout from './components/layout';
 
 import './App.css';
+import ScheduleList from './components/sidebar';
 
-function App() {
+const App = () => {
+
+  const scheduleData = [1, 2, 3, 4, 5];
+
   return (
     <div className="App">
       <Layout>
-        <h1>test</h1>
+        <ScheduleList data={scheduleData}  />
       </Layout>
     </div>
   );
